@@ -1,0 +1,11 @@
+total_buses = 10
+working_buses = 8
+bus_counter = 1
+
+while bus_counter <= working_buses:
+  print ( str(bus_counter) + ' működőképes, sofőrre vár')
+  bus_counter +=1
+
+while bus_counter <= total_buses:
+  print ( str(bus_counter) + ' működésképtelen, szervízre vár')
+  bus_counter +=1
